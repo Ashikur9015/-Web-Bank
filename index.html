@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- font page -->
     <div id="login">
         <h1 class="text-center">Welcome to  Web-Bank </h1>
         <div class="submit-form">
@@ -21,6 +21,7 @@
               <button id="enter" class="btn btn-warning">Enter</button>
         </div>
     </div>
+    <!-- end  -->
 
 
 
@@ -28,7 +29,8 @@
     <script>
         const loginBtn =document.getElementById('enter');
         loginBtn.addEventListener("click", function(){
-            console.log("click here");
+             const login =document.getElementById('login');
+             login.style.display="none";
         })
     </script>
  
